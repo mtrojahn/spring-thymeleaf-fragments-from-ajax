@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+.mvn/
+mvnw
+mvnw.cmd
+spring-thymeleaf-fragments-from-ajax.iml
+target/

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+
+    <script src="webjars/jquery/3.1.0/jquery.js"></script>
+</head>
+<body>
+
+<button id="bt1">Load Fragment 1</button>
+<button id="bt2">Load Fragment 2</button>
+
+<div id="content"></div>
+
+<script>
+    /*<![CDATA[*/
+    $("#bt1").on("click", function () {
+        $("#content").load("/frag1");
+    });
+
+    $("#bt2").on("click", function () {
+        $("#content").load("/frag2");
+    });
+    /*]]>*/
+</script>
+</body>
+</html>
